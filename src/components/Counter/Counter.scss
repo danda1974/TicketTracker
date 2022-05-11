@@ -1,0 +1,26 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.CounterBox {
+  margin: 20px;
+  margin-bottom: 0.8rem;
+  margin-top: 2rem;
+  border: 6px solid $color-black;
+  padding: 20px;
+
+  .Count {
+    margin: 40px;
+  }
+
+  .ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: space-evenly;
+
+    .CounterBox__button {
+      background-color: white;
+      border: none;
+      font-size: 28px;
+    }
+  }
+}

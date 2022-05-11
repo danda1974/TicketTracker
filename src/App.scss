@@ -1,0 +1,27 @@
+@use "./assets/sass/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  border: 6px solid $color-black;
+  text-align: center;
+}
+
+.ticketTracker {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticketTracker__heading {
+  height: 10vh;
+  padding: 0 auto;
+  margin: 10px;
+  align-items: center;
+}

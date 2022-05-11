@@ -1,0 +1,7 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.employeeBox {
+  margin: 10px;
+  padding: 5px;
+  border: 6px solid $color-black;
+}
