@@ -22,18 +22,10 @@ const Counter = ({ employee }) => {
       {currentCounter}
       <br />
       <div className="ButtonContainer">
-        <button
-          className="CounterBox__button"
-          type="button"
-          onClick={handleDecrement}
-        >
+        <button className="CounterBox__button" type="button" onClick={handleDecrement}>
           -
         </button>
-        <button
-          className="CounterBox__button"
-          type="button"
-          onClick={handleIncrement}
-        >
+        <button className="CounterBox__button" type="button" onClick={handleIncrement}>
           +
         </button>
       </div>
